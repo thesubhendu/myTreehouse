@@ -1,0 +1,317 @@
+
+/*=================Header Section=================*/
+nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.collapse .navbar-nav li a:hover:not(.active){
+    background-color: dimgray!important;
+    color: aliceblue !important;
+    
+}
+
+/*========================Title Section=============*/
+
+.titlesec{
+   
+    background: url(../img/titleimg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+        
+}
+ 
+.titlemeat{
+    color: white;
+    padding:200px 400px 150px 400px;
+}
+
+.titlemeat p{
+    margin-top:45px;
+}
+
+.titlemeat .btn{
+    margin-top:60px;
+}
+
+/*========================Professional Services Section=============*/
+
+.prosec{
+    padding:90px;
+}
+
+.promeat .row{
+    padding-top: 80px;
+}
+
+/*========================Relax Section=============*/
+
+.point p{
+    display: inline-block;
+}
+
+.relaxsec{
+    
+    
+    background: url(../img/relaximg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.relaxmeat{
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+.point img{
+    margin: 10px;
+}
+
+.relaxmeat .btn{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px 10px; 
+}
+
+
+/*===========Latest Projects Section===========*/
+
+
+.latestproj{
+    background: url(../img/ipad.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.lpmeat{
+    padding: 90px 0 100px 200px;
+}
+.projects{
+    padding-top:25px;
+}
+.p1 img {
+    float: left;
+    margin: -10px 10px 20px 0;   
+}
+
+.p1{
+    clear:left;
+}
+
+.fa{
+    position: relative;
+    top: 5px;
+    
+}
+.greentext{
+    color: #66cc66;
+}
+
+.latestproj h5{
+    font-weight: bold;
+}
+
+/*====================VALUES SECTION*/
+.values{
+    padding-top: 100px;
+}
+.vwrap .row{
+    padding:80px 0 100px 100px
+}
+
+.vwrap .row h4 {
+    font-weight: bold;
+    padding-top: 25px;
+    
+}
+
+/*======================CLIENTS==================*/
+.cwrap{
+    padding:50px 0;
+}
+.cwrap1{
+    padding:40px;
+    background: url(../img/box.jpg);
+}
+
+.cwrap2{
+    padding:40px; 
+    background: url(../img/box.jpg);
+}
+
+.cwrap1 p, .cwrap2 p{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #66cc66;
+}
+
+
+/*CALL OF ACTION*/
+
+.coa{
+    width: 100%;
+    background-color: #66cc66;
+    color: white;
+    padding:60px 0; 
+}
+.coa h1{
+    font-weight: bold;
+}
+.coa .btn{
+    margin-top: 25px;
+    background-color: transparent;
+    border:2px solid white;
+    font-weight: bold;
+}
+.coa .btn:hover{
+    background-color: white;
+    color:#66cc66;
+    
+}
+
+
+/*LOGOS*/
+
+.logos{
+    padding:50px;
+}
+
+
+/*=============================================TOP FOOTER============================*/
+.topfooter{
+    padding: 50px 200px;
+    background-color: #333;
+    width: 100%;
+    color: white;
+}
+
+.tfmeat{
+    padding: 10px 30px;
+}
+.tfwrap p{
+    display: inline-block;
+    
+    
+}
+.tfmeat div{
+    padding-bottom: 10px;
+    
+}
+
+.tfmeat h5{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/*
+.tfmeat img{
+    padding-right: 10px;
+   
+    
+}
+*/
+.locationicn{
+    margin-top: -65px
+}
+
+
+
+/*
+.tweetswrap img{
+    float: left;
+    margin: 0 10px 30px 0;
+
+}
+*/
+.tweetswrap p{
+    display: inline;
+}
+
+
+/*===================================================BOTTOM FOOTER==========================*/
+
+.socialicn{
+    display: inline-block;
+}
+
+.bottomfooter{
+    padding: 25px;
+/*    background-color: black;*/
+}
+
+
+.socialicn div{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialicn div img{
+   position: relative;
+    top: 8px;
+}
+
+.twitter:hover{
+    background-color: #0099ff;
+}
+
+.fb:hover{
+    background-color: #336699;
+}
+
+.pinterest:hover{
+    background-color: #cc3333;
+}
+
+.googleplus:hover{
+    background-color: #cc3300;
+}
+
+
+
+.copyright{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+/*============MEDIA QUERIES==============*/
+
+@media(max-width:860px){
+    
+    .titlemeat {   
+    padding:200px 50px 50px 50px;
+    text-align: center;
+}
+    .prosec{
+        padding: 50px;
+    }
+    
+    .relaxmeat{
+        
+    padding:50px;
+    background-color: dimgrey;
+    width: 100%;
+            
+}
+    
+    .lpmeat{
+        padding:50px;
+    }
+    
+    .topfooter{
+        padding:50px;
+    }
+}
+    
+    
+
+
